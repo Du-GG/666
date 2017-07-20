@@ -1,0 +1,48 @@
+.header{width: 100%;margin:0 auto ;}
+.header-cont1{width: 100%;position: relative;}
+.header-cont1>img{width: 100%;height: 400px;}
+.cont-d{width: 280px;height: 260px;background:white ;text-align: center;position: absolute;right: 17%;top: 15%;}
+.cont-p{font-size: 20px;margin-top:15px ;}
+.header-cont1 .loginbar-d1>input{width: 160px;height: 25px;border: 1px solid #DCDCDC;
+background:url(../img/zhu-5.png) no-repeat ;padding-left:36px ;border-radius:5px ;
+background-size:12% ;}
+.fix:after {display: block;clear: both;content: ''; }
+.loginbar-d1{margin: 10px 0 10px 0;}
+.loginbar-d2>input{width: 160px;height: 25px;border: 1px solid #9BC9F9;
+background:url(../img/suo.png) no-repeat ;padding-left:36px ;border-radius:5px ;
+background-size:12% ;}
+.loginbar-d3{font-size: 12px;margin: 15px 0 16px 0;}
+.loginbar-d3 input{width: 12px;height: 12px;border: 1px solid #DCDCDC;display: inline-block;}
+.loginba-p1{float: left;margin-left:40px ;font-size:14px ;}
+.loginba-p2{float: right;margin-right:40px;font-size:14px ;}
+.loginbar-d4>button{width: 200px;height: 28px;background:#417EE7 ;border-radius:5px ;
+margin-top:16px ;border: none;}
+.loginbar-d4>button>a{color: white;}
+.footer{text-align: center;margin-top:34px ;color: #656565;}
+.loginbar-d5{width: 195px;height: 26px;border: 1px solid #9BC9F9;margin-left:40px ;
+line-height:26px ;background:#FFF6D2 ;border: 1px solid #FFEEA9;color: red;
+margin-top:10px ;}
+#header {
+    width: 100%;
+}
+
+#header > .nav {
+    width: 1200px;
+    padding: 8px 0 10px 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header > .nav:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+#header > .nav > h2 {
+    float: left;
+}
+
+#header > .nav > h2 > img {
+    width: 60%;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="../css/person.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="nav">
+        <h2>
+            <a href="people.html"><img src="../img/ask.png" alt=""></a>
+        </h2>
+        <ul class="list_nav">
+                <li><a href="person.html">关于人人店</a></li>
+                <li><a href="#">商场系统</a></li>
+                <li><a href="#">营销平台</a></li>
+                <li><a href="../index.html">媒体联盟</a></li>
+                <li class="list_one">用户中心<span><img src="../img/top.png" alt=""></span>
+                    <ul class="caidan">
+                        <li>
+                            <a href="#">云商场产品</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>官网云商场</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>品牌综合商场</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>多店铺品牌商场</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+    <div class="banner">
+        <img src="../img/banner3.png" alt="">
+    </div>
+</div>
+<div class="content">
+    <div class="wrap">
+        <ul>
+            <li  class="lis">关于我们</li>
+            <li  class="lis">联系我们</li>
+            <li  class="lis">加入我们</li>
+            <li  class="lis">新闻动态</li>
+        </ul>
+       <div class="box">
+           <div id="div1" class="con">
+               <h3>关于人人店</h3>
+               <div>
+                   PAYMAX为你提供一站集体化支持服务的解决方案，通过PAYMAX的SDK,你可轻松链接任意PAYMAX支持的渠道,开通过交易管理平台监控，接任意
+                   管理已开通的渠道的所有交易PAYMAX为你提供一站式支付接入解决方案，通过PAYMAX的SDK,你可轻松链接任意PAYMAX支持的渠道，。开通过交易管理平台监控，接任意
+                   管理已开通的渠道的所有交易PAYMAX为你提供一站式支付接入解决方案。
+               </div>
+               <div class="img">
+                   <img src="../img/person_img.png" alt="">
+               </div>
+               <div class="dian">
+                   <h3>移动APP支付：</h3>
+                   <ul>你已有自己的APP通过PAYMAX的SDK,你可轻松链接任意PAYMAX支持的渠道，。开通过交易管理平台监控，接任意
+                       管理已开通的渠道的所有交易PAYMAX为你提供一站式支付接入解决方案
+                       <li>AppLEPAY：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>支付宝支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>微信移动支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>拉卡移动sdk支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                   </ul>
+               </div>
+               <div class="three dian">
+                   <h3>移动APP支付：</h3>
+                   <ul>你已有自己的APP通过PAYMAX的SDK,你可轻松链接任意PAYMAX支持的渠道，。开通过交易管理平台监控，接任意
+                       管理已开通的渠道的所有交易PAYMAX为你提供一站式支付接入解决方案
+                       <li>AppLEPAY：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>支付宝支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>微信移动支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                       <li>拉卡移动sdk支付：唤起手机支付的控件，交易PAYMAX为你提供一站式支付接入解决方案</li>
+                   </ul>
+               </div>
+           </div>
+           <div id="div2" class="con"><h3>联系我们</h3></div>
+           <div id="div3" class="con"><h3>加入我们</h3></div>
+           <div id="div4" class="con"><h3>新闻动态</h3></div>
+       </div>
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+</html>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script>
+    $(".list_one").click(function () {
+        $(this).find("ul").stop().slideToggle()
+    });
+    var lis=$(".lis")
+    var con=$(".con");
+    lis.click(function(){
+        var index=$(this).index();
+        con.eq(index).show().siblings().hide();
+    })
+</script>

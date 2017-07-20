@@ -1,0 +1,280 @@
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.center1{
+	width: 1080px;
+	margin: 20px auto;
+}
+.head{
+	width: 100%;
+	line-height: 100px;
+	z-index: 2;
+	font-size: 13.5px;
+}
+.people-logo{
+	flex: left;
+	vertical-align: middle;
+}
+.head-ul{
+	float: right;
+}
+.head-ul li{
+	float: left;
+	margin-right: 60px;
+}
+.head-ul a:hover{
+	color: #149BE1;
+}
+#head-ul-li1{
+	margin: 0;
+	position: relative;
+}
+.head-ul-li1 span{
+	color: #A8A8A8;
+}
+.head-banner{
+	width: 100%;
+	position: relative;
+}
+.head-banner img{
+	width: 100%;
+	height: 100%;
+}
+.banner-more{	
+	position: absolute;
+	bottom: 100px;
+	right: 0px;
+}
+.font{
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-left: 80px;
+	margin-top: -12px;
+	text-align: center;
+}
+.row{
+	position: relative;
+	width: 100%;
+}
+.row-p1,.row-p2{
+	width: 432px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.row-p1{
+	float: left;
+}
+.row-p2{
+	float: right;
+}
+.english{
+	color: #797979;
+	text-align: center;
+	font-size: 10.5px;
+}
+.product{
+	height: 332px;
+	position: relative;
+}
+.product1{
+	height: 366px;
+	position: relative;
+}
+.product-left{
+	width: 570px;
+	color: #7A746E;
+	position: absolute;	
+	top:50%;
+	left: 0;
+	transform: translateY(-50%);
+	font-size: 12px;
+}
+.product-right1{
+	width: 570px;
+	color: #7A746E;
+	position: absolute;	
+	top:50%;
+	right: 0;
+	transform: translateY(-50%);
+	font-size: 12px;
+}
+.product-right{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.product-right img,.product-left1 img{
+	width: 75%;
+}
+.product-left1{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.product-right1-title{
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.myMall{
+	width: 260px;
+	height: 58px;
+	border: 2px solid #FE982F;
+	text-align: center;
+	line-height: 58px;
+	margin: 88px auto;
+	font-size: 15px;
+	display: block;
+	color: #FE982F;
+}
+.foot{
+	height: 92px;
+	background: #212425;
+	text-align: center;
+	position: relative;
+}
+.foot-ul{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 20px;
+}
+.foot-ul li{
+	float: left;
+	color: #E6E7E7;
+	padding: 0 14px;
+	font-size: 10.5px;
+	line-height: 10.5px;
+	border-right: 1px solid #7A7A7A;
+}
+.foot .hr{
+	position: absolute;
+	top: 50%;
+	width: 1080px;
+	margin: 0 auto;
+	border: 1px solid #7A7A7A;
+}
+.foot-ul .foot-li1{
+	padding-left: 0;
+}
+.foot-ul .foot-li2,.foot-ul .foot-li3{
+	padding-right: 0;
+	border-right: none;
+}
+.foot-ul .foot-li3 {
+	color: #8C8C8C;
+	font-size: 15px;
+}
+.foot-ul .foot-li3 span{
+	background: #212425;
+	color: #fff;
+	/*border: 1px solid red;*/
+	display: inline-block;
+	margin-top: -10px;
+}
+.foot-ul .foot-li3 span img{
+	vertical-align: middle;
+}
+.foot-p{
+	color: #7C7B79;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+li:hover{
+	color: #149BE1;
+}
+#show{
+	width: 190px;
+	height: 170px;
+	background: #fff;
+	position: absolute;
+	z-index: 3;
+	left: -20px;
+	display: none;
+}
+#show li{
+	width: 170px;
+	text-align: center;
+	line-height: 42px;	
+	color: #666666;
+}
+#show li:hover{
+	color: #149BE1;
+}
+.header {
+	width: 100%;
+}
+
+.header > .nav {
+	width: 1200px;
+	padding: 8px 0 10px 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header > .nav:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.header > .nav > h2 {
+	float: left;
+}
+
+.header > .nav > h2 > img {
+	width: 60%;
+}
+
+.header > .nav > .list_nav {
+	float: right;
+	padding-top: 25px;
+	padding-bottom: 9px;
+	font-size: 12px;
+}
+
+.header > .nav > .list_nav > ul:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.header > .nav > .list_nav > ul > li {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.header > .nav > .list_nav:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+.header > .nav > .list_nav>li{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+.header > .nav > .list_nav>li>.caidan{
+	position: absolute;
+	background: white;
+	left: 0;
+	top:32px;
+	font-size: 12px;
+	width: 100px;
+	box-shadow: 2px 2px 2px 2px gainsboro;
+	display: none;
+	z-index: 4;
+}
+.header > .nav > .list_nav>li>.caidan>li{
+	padding:5px ;
+}
+span>img{
+	width: 20%;
+}

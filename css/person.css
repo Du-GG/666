@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+}
+
+.header > .nav {
+    width: 1200px;
+    padding: 8px 0 10px 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header > .nav:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.header > .nav > h2 {
+    float: left;
+}
+
+.header > .nav > h2 > img {
+    width: 60%;
+}
+
+.header > .nav > .list_nav {
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 9px;
+    font-size: 12px;
+}
+
+.header > .nav > .list_nav > ul:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.header > .nav > .list_nav > ul > li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header > .nav > .list_nav:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.header > .nav > .list_nav>li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.header > .nav > .list_nav>li>.caidan{
+    position: absolute;
+    background: white;
+    left: 0;
+    top:32px;
+    font-size: 12px;
+    width: 100px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    display: none;
+}
+.header > .nav > .list_nav>li>.caidan>li{
+    padding:5px ;
+}
+.banner{
+    width: 100%;
+}
+.banner>img{
+    width: 100%;
+}
+.content>.wrap{
+    width: 1200px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.content>.wrap:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.wrap>ul{
+    float: left;
+    /*background: pink;*/
+    padding-top: 10px;
+}
+.wrap>ul>li{
+    margin:10px 22px 15px 18px ;
+    padding-left: 6px;
+    border-left: 2px solid white;
+}
+.wrap>ul>li:hover{
+    border-left: 2px solid #0298fc;
+    color: #0298fc;
+}
+.list_one{
+    vertical-align: middle;
+}
+.wrap>.box{
+    float: left;
+    padding-top: 20px;
+    margin-left: 56px;
+    width: 900px;
+    height: 1000px;
+}
+.wrap>.box>div{
+    font-size: 12px;
+    display: none;
+}
+.wrap>.box>div:nth-child(1){
+    display: block;
+}
+.wrap>.box>div>h3{
+    padding-bottom: 20px;
+}
+.wrap>.box>div>div>h3{
+    padding-bottom: 10px;
+}
+.img{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.three{
+    margin-top: 8px;
+}
+.box>div:active{
+    display: block;
+}
+#div1>div{
+    line-height: 20px;
+}
+.dian>ul>li{
+    list-style-type: square;
+    margin-left: 14px;
+}

@@ -1,0 +1,412 @@
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.index-benner img {
+  width: 100%;
+  height: 100%; }
+
+.index-content {
+  width: 1200px;
+  margin: 0 auto; }
+  .index-content .list {
+    margin: 60px 85px 0px 85px;
+    height: 50px; }
+    .index-content .list .div1 {
+      width: 420px;
+      height: 1px;
+      background: #cccccc;
+      float: left;
+      margin: 12px 15px; }
+    .index-content .list .div2 {
+      text-align: center;
+      float: left;
+      font-size: 24px;
+      font-weight: 800; }
+      .index-content .list .div2 p {
+        font-size: 8px;
+        color: #cccccc;
+        font-weight: 400; }
+  .index-content .index-container {
+    margin-top: 50px; }
+    .index-content .index-container .li-1 {
+      margin-left: 53px; }
+    .index-content .index-container li {
+      height: 500px;
+      width: 260px;
+      float: left; }
+      .index-content .index-container li .list_one {
+        width: 260px;
+        height: 260px;
+        background: #f6f6f6;
+        position: relative;
+        overflow: hidden; }
+        .index-content .index-container li .list_one:hover .list_2 {
+          transition: all 1s;
+          width: 260px; }
+        .index-content .index-container li .list_one .list_1 {
+          text-align: center; }
+          .index-content .index-container li .list_one .list_1 img {
+            display: inline-block;
+            margin: 55px 0px 40px 0px; }
+          .index-content .index-container li .list_one .list_1 p {
+            font-size: 18px; }
+        .index-content .index-container li .list_one .list_2 {
+          position: absolute;
+          width: 0px;
+          height: 260px;
+          top: 0px;
+          right: 0px; }
+    .index-content .index-container .zhong div {
+      font-size: 18px;
+      margin: 10px 0px;
+      font-weight: 700; }
+    .index-content .index-container .zhong p {
+      font-size: 12px;
+      line-height: 20px;
+      color: #666666; }
+
+.index-main {
+  width: 100%;
+  height: 740px;
+  background: #fafafa; }
+
+.index-tab {
+  width: 1200px;
+  margin: 0 auto; }
+  .index-tab .list_one {
+    padding-top: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900; }
+    .index-tab .list_one span {
+      color: #0b95ed; }
+  .index-tab ul {
+    margin-top: 130px; }
+    .index-tab ul .li-2 {
+      margin-left: 12px; }
+    .index-tab ul li {
+      float: left;
+      text-align: center;
+      width: 228px;
+      height: 428px;
+      border: 1px solid #e7e8e9;
+      background: #ffffff;
+      position: relative; }
+      .index-tab ul li:hover {
+        box-shadow: 0px 5px 40px #939393;
+        margin-top: -5px;
+        transition: all 1s; }
+        .index-tab ul li:hover .list_san {
+          height: 210px;
+          transition: all 1s; }
+        .index-tab ul li:hover .list_two {
+          margin: -65px 0px 100px 0px;
+          transition: all 1s; }
+      .index-tab ul li .list_two {
+        margin: 45px 0px 100px 0px; }
+      .index-tab ul li .list_san {
+        width: 178px;
+        height: 100px;
+        margin: 0px 25px;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0; }
+        .index-tab ul li .list_san div {
+          margin: 15px 0px;
+          font-size: 18px;
+          font-weight: 600; }
+        .index-tab ul li .list_san p {
+          font-size: 12px;
+          line-height: 22px;
+          color: #a3a3a3; }
+
+.index-msg {
+  width: 100%;
+  height: 600px; }
+  .index-msg .msg_1 {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto; }
+    .index-msg .msg_1 .msg_1_one {
+      float: left;
+      margin: 100px 0px 120px 0px; }
+    .index-msg .msg_1 .msg_1_two {
+      float: left;
+      margin-left: 50px;
+      margin-top: 186px; }
+      .index-msg .msg_1 .msg_1_two h4 {
+        font-size: 18px;
+        margin-bottom: 35px; }
+      .index-msg .msg_1 .msg_1_two p {
+        font-size: 30px;
+        color: #2281ef; }
+      .index-msg .msg_1 .msg_1_two .msg_1_san {
+        width: 260px;
+        height: 65px;
+        margin-top: 40px;
+        border: 1px solid;
+        color: white;
+        font-size: 20px;
+        background: cornflowerblue; }
+        .index-msg .msg_1 .msg_1_two .msg_1_san div {
+          padding: 15px 50px; }
+        .index-msg .msg_1 .msg_1_two .msg_1_san span {
+          display: inline-block;
+          text-align: center;
+          width: 20px;
+          height: 20px;
+          border: 1px solid;
+          border-radius: 50%;
+          line-height: 20px; }
+.foot{
+  height: 92px;
+  background: #212425;
+  text-align: center;
+  position: relative;
+}
+.foot-ul{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.foot-ul li{
+  float: left;
+  color: #E6E7E7;
+  padding: 0 14px;
+  font-size: 10.5px;
+  line-height: 10.5px;
+  border-right: 1px solid #7A7A7A;
+}
+.foot .hr{
+  position: absolute;
+  top: 50%;
+  width: 1080px;
+  margin-left: 200px;
+  border: 1px solid #7A7A7A;
+}
+.foot-ul .foot-li1{
+  padding-left: 0;
+}
+.foot-ul .foot-li2,.foot-ul .foot-li3{
+  padding-right: 0;
+  border-right: none;
+}
+.foot-ul .foot-li3 {
+  color: #8C8C8C;
+  font-size: 15px;
+}
+.foot-ul .foot-li3 span{
+  background: #212425;
+  color: #fff;
+  /*border: 1px solid red;*/
+  display: inline-block;
+  margin-top: -10px;
+}
+.foot-ul .foot-li3 span img{
+  vertical-align: middle;
+}
+.foot-p{
+  color: #7C7B79;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  width: 100%;
+}
+
+.header > .nav {
+  width: 1200px;
+  padding: 8px 0 10px 0;
+  margin: 0 auto;
+  /*background: red;*/
+  position: relative;
+}
+
+.header > .nav:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.header > .nav > h2 {
+  float: left;
+}
+
+.header > .nav > h2 > img {
+  width: 100%;
+}
+
+.header > .nav > .list_nav {
+  float: right;
+  padding-top: 25px;
+  padding-bottom: 9px;
+}
+
+.header > .nav > .list_nav > ul:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.header > .nav > .list_nav > ul > li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header > .nav > .list_nav > ul > li>a:hover{
+  color: #0298fc;
+}
+
+.header > .nav > .list_nav > ul > .list_one {
+  position: relative;
+}
+
+.header > .nav > .list_nav > ul > .list_one > ul {
+  background: white;
+  position: absolute;
+  padding: 10px 16px 17px 18px;
+  display: none;
+  box-shadow: 2px 2px 2px 2px #bababa;
+  z-index: 4;
+}
+
+.header > .nav > .list_nav > ul > .list_one > ul > li {
+  width: 310px;
+}
+
+.li_one {
+  border-bottom: 1px solid #aaaaaa;
+  padding: 10px 0 5px 0;
+}
+
+.header > .nav > .list_nav > ul > .list_one > ul > li > a > p:nth-child(1) {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.header > .nav > .list_nav > ul > .list_one > ul > li > a > p:nth-child(1):hover {
+  color: #3d92f6;
+}
+
+.header > .nav > .list_nav > ul > .list_one > ul > li > a > p:nth-child(2) {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.header > .nav >  .list_two {
+  position: absolute;
+  top:0;
+  right: 8px;
+}
+.list_two>ul{
+  position: absolute;
+  top:30px;
+  right: 0;
+  background: white;
+  box-shadow: 2px 2px 2px 2px #bababa;
+  font-size: 12px;
+  width:100px;
+  padding:10px 0 10px 5px ;
+  display: none;
+  z-index:4;
+}
+.list_two>ul>li{
+  padding: 4px 4px;
+}
+.list_two>ul>li>a:hover{
+  color:#3d92f6
+}
+span>img{
+  width: 20%;
+}
+.lunbo {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.lunbo .box {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lunbo .box a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lunbo img {
+  width:100%;
+  height: 100%
+}
+
+.lunbo ul {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.lunbo li {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: gray;
+  border-radius: 50%;
+  float: left;
+  cursor: pointer
+}
+.lunbo li {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.5);
+  float: left
+}
+
+.lunbo ul {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.lunbo .hot {
+  border: 1px solid white;
+  width: 9px;
+  height: 9px;
+}
+.postion{
+  position: fixed;
+  top:50%;
+  right: 0;
+}
+body{
+  position: relative;
+}
